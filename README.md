@@ -18,7 +18,25 @@ Ensure you have the following installed:
 
 ### Steps
 1. Clone the repository:
+   
    ```sh
    git clone <repository-url>
    cd GraphQLProject/server
+   ```
+3. Install dependencies:
+   
+   ```sh
+   yarn install
+   # or
+   npm install
+   ```
+5. Setup Prisma:
+    ```sh
+   npx prisma migrate dev --name init
+   ```
+6. Start the development server:
+     ```sh
+    yarn start
+   # or
+   npm run start
    ```
