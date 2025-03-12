@@ -1,6 +1,5 @@
 # Posts
 
-## Description
 This project is a GraphQL-based application that utilizes Prisma for database management. It provides a GraphQL API for interacting with the underlying data model.
 
 ## Features
@@ -40,3 +39,16 @@ Ensure you have the following installed:
    # or
    npm run start
    ```
+### Configuration
+
+- graphqlconfig: Configures GraphQL tools for development
+
+- prisma/datamodel.graphql: Defines the database schema
+
+### Usage
+
+Once the server is running, you can access the GraphQL playground at:
+ ```sh
+http://localhost:4000
+ ```
+You can execute queries and mutations based on the provided schema.
